@@ -37,7 +37,8 @@
   "authors": [
     "Gustavo Vargas",
     "Guy Aridor",
-    "Matthew Rheault"
+    "Matthew Rheault",
+    "Felipe Arosemena"
   ],
   "jest": {
     "moduleFileExtensions": [
@@ -60,5 +61,8 @@
     "test": "sh build.sh && jest",
     "build": "sh build.sh"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
