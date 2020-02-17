@@ -72,9 +72,9 @@ const Parametrize = createReactClass({
     });
 
     return (
-      <span>
+      <React.Fragment>
         { renderedChildren }
-      </span>
+      </React.Fragment>
     );
   },
 
